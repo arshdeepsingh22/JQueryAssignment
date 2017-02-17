@@ -1,0 +1,44 @@
+@import "variables";
+
+.footer {
+	height: 30px;
+	display: flex;
+	border-top: $brdrdet;
+	margin-top: $pdsizehead;
+	justify-content: space-around;
+
+	&-list1 {
+		padding-left: 30px;
+		width: 300px;
+		list-style-type: none;
+		font-size: 70%;
+		color: $headclr;
+		display: flex;
+
+		&-image {
+			background-color: silver;
+			height: 12px;
+			width: 12px;
+		}
+
+		&-text {
+			width: 200px;
+			padding-left: 5px;
+		}
+	}
+
+	&-list2 {
+		width: 750px;
+		list-style-type: none;
+		font-size: 70%;
+		color: $headclr;
+		display: flex;
+		justify-content: flex-end;
+
+		&-eles {
+			width: 150px;
+			display: flex;
+			justify-content: center;
+		}
+	}
+}
